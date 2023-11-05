@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1696264382",
+        "python_version": "3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Sindri\\My project (1)\\venv\\Scripts\\mlagents-learn --torch-device cuda",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1696264392"
+    },
+    "total": 9.5287905,
+    "count": 1,
+    "self": 0.006303899999998919,
+    "children": {
+        "run_training.setup": {
+            "total": 0.10432269999999999,
+            "count": 1,
+            "self": 0.10432269999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 9.4181639,
+            "count": 1,
+            "self": 0.0009593999999975011,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 9.4171568,
+                    "count": 1,
+                    "self": 9.4171568
+                },
+                "trainer_threads": {
+                    "total": 8.000000001118224e-06,
+                    "count": 1,
+                    "self": 8.000000001118224e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 3.970000000030893e-05,
+                    "count": 1,
+                    "self": 3.970000000030893e-05
+                }
+            }
+        }
+    }
+}
